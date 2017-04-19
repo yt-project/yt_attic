@@ -15,6 +15,7 @@ These modules come with all documentation that was written for them.
 To see these docs, do the following:
 
 cd doc
+
 make html
 
 Enjoy!
