@@ -1,0 +1,7 @@
+syntax: glob
+*~
+*.pyc
+yt_attic.egg-info
+doc/build
+build/*
+dist/*
