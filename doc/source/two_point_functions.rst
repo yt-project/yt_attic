@@ -1,5 +1,10 @@
 .. _two_point_functions:
 
+.. warning:: This is the state of the documentation before this
+   module was moved to the attic.  It is likely that code examples
+   shown here do not work as advertised.  If you would like to take
+   on any code, you are welcome to its documentation.
+
 Two Point Functions
 ===================
 .. sectionauthor:: Stephen Skory <sskory@physics.ucsd.edu>

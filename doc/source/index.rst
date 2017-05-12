@@ -10,7 +10,8 @@ This is a repository of yt analysis modules that have fallen by the
 wayside.  Some have not been updated to stay current with yt
 development and some may not be working correctly.  If you would like
 to revive anything in here and/or incorporate into your own software
-packages, please do!
+packages, please do!  Also, consider listing your code on the
+`yt Extensions page <http://yt-project.org/extensions.html>`__.
 
 Checking out the yt Attic
 -------------------------
