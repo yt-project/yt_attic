@@ -46,7 +46,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'yt_attic'
+project = 'The yt Attic'
 copyright = '2017, yt-project'
 author = 'yt-project'
 
@@ -83,13 +83,27 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+import sphinx_bootstrap_theme
+html_theme = 'bootstrap'
+html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-# html_theme_options = {}
+html_theme_options = dict(
+    bootstrap_version = "3",
+    bootswatch_theme = "readable",
+    navbar_links = [
+        #(<title>, <link>)
+        ],
+    navbar_sidebarrel = False,
+    globaltoc_depth = 2,
+)
+
+# The name of an image file (relative to this directory) to place at the top
+# of the sidebar.
+html_logo = "_static/yt_icon.png"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
