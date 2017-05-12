@@ -18,8 +18,7 @@ Star Formation Rate
 
 This tool can calculate various star formation statistics binned over time.
 As input it can accept either a yt ``data_source``, such as a region or
-sphere (see :ref:`available-objects`), or arrays containing the data for
-the stars you wish to analyze.
+sphere, or arrays containing the data for the stars you wish to analyze.
 
 This example will analyze all the stars in the volume:
 

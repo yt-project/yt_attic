@@ -14,8 +14,8 @@ General Overview
 A halo mass function can be created for the halos identified in a cosmological
 simulation, as well as analytic fits using any arbitrary set of cosmological
 parameters. In order to create a mass function for simulated halos, they must
-first be identified (using HOP, FOF, or Rockstar, see
-:ref:`halo_catalog`) and loaded as a halo dataset object. The distribution of
+first be identified using a halo finder and loaded as a halo dataset object.
+The distribution of
 halo masses will then be found, and can be compared to the analytic prediction
 at the same redshift and using the same cosmological parameters as were used
 in the simulation. Care should be taken in this regard, as the analytic fit
