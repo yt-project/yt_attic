@@ -398,6 +398,9 @@ class HaloMassFcn():
             # All done!
 
     def dndm(self):
+        print 'Warning: The n_cumulative_analytic and dndM_dM_analytic functions are wrong'
+        print 'See https://github.com/yt-project/yt/issues/1228'
+        print 'and https://github.com/yt-project/yt/issues/1237'
         # constants - set these before calling any functions!
         # rho0 in units of h^2 Msolar/Mpc^3
         rho0 = YTQuantity(self.omega_matter0 * rho_crit_g_cm3_h2 * self.hubble0**2, 
