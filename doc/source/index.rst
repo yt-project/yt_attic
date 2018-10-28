@@ -39,6 +39,8 @@ Packages in the attic can be imported as
 
 If you find something you like in here, give it a new home!
 
+.. _attic-modules:
+
 In the Attic
 ------------
 Below is the existing documentation for all modules in the attic.
