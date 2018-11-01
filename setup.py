@@ -9,6 +9,10 @@ from setuptools import find_packages
 def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
+dev_requirements = [
+    'flake8', 'girder-client', 'gitpython',
+    'sphinx', 'sphinx_bootstrap_theme']
+
 setup(
     name = "yt_attic",
     version = "0.0.1",
@@ -37,5 +41,8 @@ setup(
         "Topic :: Scientific/Engineering :: Physics",
         "Topic :: Scientific/Engineering :: Visualization",
     ],
-    install_requires=['yt', 'h5py', 'numpy', 'matplotlib', 'astropy', 'requests'],
+    install_requires=['yt', 'h5py', 'numpy', 'matplotlib'],
+    extras_require = {
+        'dev':  dev_requirements,
+    },
 )
