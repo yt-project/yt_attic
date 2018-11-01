@@ -1,0 +1,12 @@
+build
+yt_attic.egg-info
+syntax: glob
+*~
+*.pyc
+*.pyd
+.*.swp
+*.so
+doc/build/*
+doc/source/generated/*
+doc/_temp/*
+dist
