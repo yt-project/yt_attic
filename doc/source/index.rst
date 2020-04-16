@@ -48,6 +48,7 @@ Below is the existing documentation for all modules in the attic.
 .. toctree::
    :maxdepth: 1
 
+   enzofof_merger_tree.rst
    halo_mass_function.rst
    star_analysis.rst
    sunrise_export.rst
